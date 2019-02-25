@@ -89,6 +89,7 @@ a:focus, a:hover {
 img{
 	width:100%;
 }
+h1
 /*-- //Reset-Code --*/
 
 
@@ -236,6 +237,7 @@ h1 {
     color: #fff;
     font-weight: 500;
 }
+
 .w3_info {
     flex-basis: 50%;
     -webkit-flex-basis: 50%;
@@ -389,6 +391,7 @@ h5 {
 h1 span {
     font-weight: 700;
     color: #4bfff0;
+    font-size: 35px;
 }
 .l-f-forgot {
     font-weight: 400;
