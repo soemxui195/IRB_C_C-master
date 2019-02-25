@@ -161,7 +161,7 @@
                                             </div>
                                             <div class="kk-block-other btn-choose" style="padding:5px 20px;">
                                                 <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack"
-                                                    data-toggle="modal" data-target="#WithdrawalBLC">
+                                                    data-toggle="modal" data-target="#Withdrawal_blance">
                                                     WITHDRAWAL
                                                 </a>
                                             </div>
@@ -172,6 +172,64 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="modal animated zoomIn text-left" id="Withdrawal_blance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel69" style="display: none;" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success white">
+                                        <h4 class="modal-title kk-block-other-item" id="myModalLabel9" style="color: #17c8ff;"><img src="../app-assets/images/new/dola.png" class="modal-icon-header"><span style="font-weight:600">Blance</span> Wallet</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="crypto-icon text-center">
+                                            <img class="hwc" src="../app-assets/images/new/dola.png">
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-5px w-100">minimum value 100 EEE</label>
+                                        </div>
+                                        <div class="form-group cryptonia no-mb no-pb">
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Amount</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;">
+                                                                <i class="la la-dollar fz-1o3"></i>
+                                                            </button>
+                                                        </div>
+                                                        <input type="number" id="amount_usd_ex" name="amount_usd_ex" class="form-control kk-wallet change_usd" style="font-weight:600" min="100" required="" data-validation-required-message="This field is required" aria-invalid="false" placeholder="Enter Amount">
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Wallet receiver</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <input type="text" id="wallet" name="wallet" class="form-control text-center kk-wallet kk-color-black change_usd" required="" aria-invalid="false" placeholder="OxsD12F32xvW3deG5...">
+                                                        <div class="input-group-append">
+                                                            <select id="type" name="type" class="form-control input-smn pd-0o5-1 kk-color-dark" style="border-color: #1b353a!important;border-bottom-left-radius: 0px;border-top-left-radius: 0px;" disabled="disabled">
+                                                                <option value="EEE">EEE</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" id="check_usd" name="check" value="0">
+                                        </div>
+                                        <div class="alert alert-success" role="alert" style="display:none">
+                                            <span class="text-bold-600">Only send Ethereum (ETH)</span>  to this address. Sending any other digital asset will result in permanent loss.
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg-success">
+                                        <button type="button" style="color: #0c0c35!important;font-size: 1.12rem;font-weight: 600;padding: 9px 15px;background: #31bfde;background-image: linear-gradient(to right, #01f2ff, #9ef4e1);" class="btn btn-outline-success btn-buy-pack">Withdrawal</button>
+                                        <button type="button" style="font-size: 1.12rem;" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div class="col-xl-4 col-lg-12 col-sm-6 col-12">
                         <div class="card pull-up back-trans card-pink">
@@ -222,7 +280,7 @@
                                             </div>
                                             <div class="kk-block-other btn-choose" style="padding:5px 20px;">
                                                 <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack"
-                                                    data-toggle="modal" data-target="#WithdrawalBLC">
+                                                    data-toggle="modal" data-target="#Withdrawal_totalEEE">
                                                     WITHDRAWAL
                                                 </a>
                                             </div>
@@ -230,6 +288,97 @@
 
                                     </div>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal animated zoomIn text-left" id="Withdrawal_totalEEE" tabindex="-1" role="dialog" aria-labelledby="myModalLabel69" style="display: none;" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-success white">
+                                        <h4 class="modal-title kk-block-other-item" id="myModalLabel9" style="color: #17c8ff;"><img src="../app-assets/images/ico/iocn3.png" class="modal-icon-header"><span style="font-weight:600">EEE</span> Wallet</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="crypto-icon text-center">
+                                            <img class="hwc" src="../app-assets/images/ico/iocn3.png">
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-5px w-100">minimum value 100 EEE</label>
+                                        </div>
+                                        <div class="form-group cryptonia no-mb no-pb">
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Total EEE</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;">
+                                                                <img style="width:20px;" src="../app-assets/images/ico/iocn3.png">
+                                                            </button>
+                                                        </div>
+                                                        <input type="text" id="amount_usd" class="form-control" value="0,00" disabled="disabled" style="background: #e2f2ff;">
+
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Amount</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;">
+                                                                <i class="la la-dollar fz-1o3"></i>
+                                                            </button>
+                                                        </div>
+                                                        <input type="number" id="amount_usd_ex" name="amount_usd_ex" class="form-control kk-wallet change_usd" style="font-weight:600" min="100" required="" data-validation-required-message="This field is required" aria-invalid="false" placeholder="Enter Amount">
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Equivalent Amount</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;" type="button">
+                                                                <i class="la la-dollar fz-1o3"></i>
+                                                            </button>
+                                                        </div>
+                                                        <input type="text" id="amount_usd_act" name="amount_usd_act" class="form-control kk-wallet kk-color-black change_usd" style="font-weight:600" required="" aria-invalid="false" placeholder="0.0000">
+                                                        <button class="btn btn-warning pd-0o5-1 kk-color-dark" style="border-color: rgba(9, 19, 72, 0.2)!important; border-radius: 0px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;color: #383e52;opacity: 1;background: #ccdce8!important;font-weight: 600;" type="button">
+                                                            FEE: 3%
+                                                        </button>
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Wallet receiver</label>
+                                            <div class="form-group validate">
+                                                <div class="controls">
+                                                    <div class="input-group pd-lr-15">
+                                                        <input type="text" id="wallet" name="wallet" class="form-control text-center kk-wallet kk-color-black change_usd" required="" aria-invalid="false" placeholder="OxsD12F32xvW3deG5...">
+                                                        <div class="input-group-append">
+                                                            <select id="type" name="type" class="form-control input-smn pd-0o5-1 kk-color-dark" style="border-color: #1b353a!important;border-bottom-left-radius: 0px;border-top-left-radius: 0px;" disabled="disabled">
+                                                                <option value="EEE">EEE</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="help-block"></div>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" id="check_usd" name="check" value="0">
+                                        </div>
+                                        <div class="alert alert-success" role="alert" style="display:none">
+                                            <span class="text-bold-600">Only send Ethereum (ETH)</span>  to this address. Sending any other digital asset will result in permanent loss.
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer bg-success">
+                                        <button type="button" style="color: #0c0c35!important;font-size: 1.12rem;font-weight: 600;padding: 9px 15px;background: #31bfde;background-image: linear-gradient(to right, #01f2ff, #9ef4e1);" class="btn btn-outline-success btn-buy-pack">Withdrawal</button>
+                                        <button type="button" style="font-size: 1.12rem;" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
