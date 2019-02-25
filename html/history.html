@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="Modern admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities with bitcoin dashboard.">
+    <meta name="keywords" content="admin template, modern admin template, dashboard template, flat admin template, responsive admin template, web app, crypto dashboard, bitcoin dashboard">
+    <meta name="author" content="PIXINVENT">
+    <title>EEE Coin | Dashboard</title>
+    <link rel="apple-touch-icon" href="../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
+          rel="stylesheet">
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
+          rel="stylesheet">
+    <!-- BEGIN VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/vendors.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/meteocons/style.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/tables/extensions/responsive.dataTables.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN MODERN CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/app.css">
+    <!-- END MODERN CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/plugins/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/fonts/simple-line-icons/style.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/pages/dashboard-ecommerce.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/plugins/loaders/loaders.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/core/colors/palette-loader.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/cryptocoins/cryptocoins.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/css/kk.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <!-- END Custom CSS-->
+    <style>
+        ::placeholder {
+            color: #5a676f !important;
+            opacity: 1; /* Firefox */
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #5a676f !important;
+        }
+
+        ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #5a676f !important;
+        }
+    </style>
+</head>
+
+<body class="wallet horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover"
+      data-menu="horizontal-menu" data-col="2-columns">
+    <!-- fixed-top-->
+    <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow navbar-static-top navbar-light navbar-brand-center">
+        <div class="navbar-wrapper">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                            <img class="brand-logo" alt="modern admin logo" src="../app-assets/images/logo/7eleventrans.png">
+                        </a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-container content">
+                <div class="collapse navbar-collapse" id="navbar-mobile">
+
+                    <ul class="nav navbar-nav float-right" style="position:relative;top:3px;">
+
+                        <li class="dropdown dropdown-user nav-item">
+                            <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                                <span class="avatar avatar-online">
+                                    <img src="../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i>
+                                </span>
+                                <span class="mr-1">
+                                    Hello,
+                                    <span class="user-name kk-color-one-pink text-bold-700">John Doe</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+    <div class="kk-right header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow kk-color-dark"
+         role="navigation" data-menu="menu-wrapper">
+        <div class="kk-header-center navbar-container main-menu-content kk-color-none" data-menu="menu-container">
+            <ul class="nav navbar-nav kk-color-none" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class="dropdown nav-item">
+                    <a class="nav-link" href="#" data-toggle="">
+                        <i class="la la-gear"></i>
+                    </a>
+                </li>
+                <li class="dropdown nav-item active">
+                    <a class="nav-link" href="dashboard.html" data-toggle="">
+
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a class="nav-link" href="history.html" data-toggle="">
+                        <span>History</span>
+                    </a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a class="nav-link" href="profile.html" data-toggle="">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a class="nav-link" href="#" data-toggle="">
+                        <span>Logout</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="app-content content">
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <!-- eCommerce statistic -->
+                
+                <div class="row match-height">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <section id="select-inputs">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card card-table">
+                                        <div class="card-header kk-color-soft-light-white">
+                                            <h4 class="card-title kk-color-blue-dark" style="background: linear-gradient(to right, #00f3ff, #6fffa5 10%);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">
+                                            HISTORY DEPOSIT</h4>
+                                            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                            <div class="heading-elements">
+                                                <ul class="list-inline mb-0">
+                                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-content collapse show">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-bordered datatable-select-inputs">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Type</th>
+                                                                <th>Volume</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>20018/04/13</td>
+                                                                <td>BTC</td>
+                                                                <td>1000 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/14</td>
+                                                                <td>ETC</td>
+                                                                <td>1200 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>BCH</td>
+                                                                <td>2000 USD</td>
+                                                                <td>Pending</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>ETC</td>
+                                                                <td>200 USD</td>
+                                                                <td>Pending</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>XRP</td>
+                                                                <td>700 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>LTC</td>
+                                                                <td>1100 USD</td>
+                                                                <td>Pending</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>TRX</td>
+                                                                <td>400 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>TRX</td>
+                                                                <td>1400 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>BTC</td>
+                                                                <td>2000 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>ETH</td>
+                                                                <td>3000 USD</td>
+                                                                <td>4500000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/18</td>
+                                                                <td>TRX</td>
+                                                                <td>800 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>ETH</td>
+                                                                <td>900 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>XRP</td>
+                                                                <td>500 USD</td>
+                                                                <td>Pending</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>TRX</td>
+                                                                <td>1100 USD</td>
+                                                                <td>Pending</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>TRX</td>
+                                                                <td>2000 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>TRX</td>
+                                                                <td>1400 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/22</td>
+                                                                <td>TRX</td>
+                                                                <td>1200 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/23</td>
+                                                                <td>ETH</td>
+                                                                <td>3000 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/20</td>
+                                                                <td>ETC</td>
+                                                                <td>600 USD</td>
+                                                                <td>Complete</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Price</th>
+                                                                <th>Total</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row match-height">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <section id="select-inputs">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card card-table">
+                                        <div class="card-header kk-color-soft-light-white">
+                                            <h4 class="card-title kk-color-blue-dark" style="background: linear-gradient(to right, #00f3ff, #6fffa5 10%);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">
+                                            HISTORY BUY EEE</h4>
+                                            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                            <div class="heading-elements">
+                                                <ul class="list-inline mb-0">
+                                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-content collapse show">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-bordered datatable-select-inputs">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Price</th>
+                                                                <th>Total</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>20018/04/13</td>
+                                                                <td>500 EEE</td>
+                                                                <td>1000 USD</td>
+                                                                <td>500000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/14</td>
+                                                                <td>600 EEE</td>
+                                                                <td>1200 USD</td>
+                                                                <td>720000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>1000 EEE</td>
+                                                                <td>2000 USD</td>
+                                                                <td>2000000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>100 EEE</td>
+                                                                <td>200 USD</td>
+                                                                <td>20000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>350 EEE</td>
+                                                                <td>700 USD</td>
+                                                                <td>245000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>550 EEE</td>
+                                                                <td>1100 USD</td>
+                                                                <td>605000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>200 EEE</td>
+                                                                <td>400 USD</td>
+                                                                <td>80000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>700 EEE</td>
+                                                                <td>1400 USD</td>
+                                                                <td>980000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>1000 EEE</td>
+                                                                <td>2000 USD</td>
+                                                                <td>2000000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>1500 EEE</td>
+                                                                <td>3000 USD</td>
+                                                                <td>4500000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/18</td>
+                                                                <td>400 EEE</td>
+                                                                <td>800 USD</td>
+                                                                <td>320000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>450 EEE</td>
+                                                                <td>900 USD</td>
+                                                                <td>405000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>250 EEE</td>
+                                                                <td>500 USD</td>
+                                                                <td>125000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>550 EEE</td>
+                                                                <td>1100 USD</td>
+                                                                <td>605000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>1000 EEE</td>
+                                                                <td>2000 USD</td>
+                                                                <td>2000000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>700 EEE</td>
+                                                                <td>1400 USD</td>
+                                                                <td>980000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/22</td>
+                                                                <td>600 EEE</td>
+                                                                <td>1200 USD</td>
+                                                                <td>720000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/23</td>
+                                                                <td>1500 EEE</td>
+                                                                <td>3000 USD</td>
+                                                                <td>4500000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/20</td>
+                                                                <td>300 EEE</td>
+                                                                <td>600 USD</td>
+                                                                <td>180000</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Price</th>
+                                                                <th>Total</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row match-height">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <section id="select-inputs">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card card-table">
+                                        <div class="card-header kk-color-soft-light-white">
+                                            <h4 class="card-title kk-color-blue-dark" style="background: linear-gradient(to right, #00f3ff, #6fffa5 10%);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">
+                                                HISTORY WITHDRAWAL EEE
+                                            </h4>
+                                            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                            <div class="heading-elements">
+                                                <ul class="list-inline mb-0">
+                                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-content collapse show">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-bordered datatable-select-inputs">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>20018/04/13</td>
+                                                                <td>100 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/14</td>
+                                                                <td>200 EEE</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>500 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>300 EEE</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>150 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>900 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>200 EEE</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>300 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>400 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>500 EEE</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/18</td>
+                                                                <td>600 EEE</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>200 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>300 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>450 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>700 EEE</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>300 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/22</td>
+                                                                <td>400 EEE</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/23</td>
+                                                                <td>700 EEE</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/20</td>
+                                                                <td>500 EEE</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row match-height">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <section id="select-inputs">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card card-table">
+                                        <div class="card-header kk-color-soft-light-white">
+                                            <h4 class="card-title kk-color-blue-dark" style="background: linear-gradient(to right, #00f3ff, #6fffa5 10%);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">
+                                                HISTORY WITHDRAWAL USD
+                                            </h4>
+                                            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                            <div class="heading-elements">
+                                                <ul class="list-inline mb-0">
+                                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-content collapse show">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-bordered datatable-select-inputs">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>20018/04/13</td>
+                                                                <td>100 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/14</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>150 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>900 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>400 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/18</td>
+                                                                <td>600 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>450 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>700 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/22</td>
+                                                                <td>400 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/23</td>
+                                                                <td>700 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/20</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row match-height">
+                    <div class="col-xl-12 col-lg-12 col-12">
+                        <section id="select-inputs2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card card-table">
+                                        <div class="card-header kk-color-soft-light-white">
+                                            <h4 class="card-title kk-color-blue-dark" style="background: linear-gradient(to right, #00f3ff, #6fffa5 10%);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">
+                                                BONUS
+                                            </h4>
+                                            <a class="heading-elements-toggle"><i class="la la-ellipsis-v font-medium-3"></i></a>
+                                            <div class="heading-elements">
+                                                <ul class="list-inline mb-0">
+                                                    <li><a data-action="collapse"><i class="ft-minus"></i></a></li>
+                                                    <li><a data-action="reload"><i class="ft-rotate-cw"></i></a></li>
+                                                    <li><a data-action="expand"><i class="ft-maximize"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-content collapse show">
+                                            <div class="card-body">
+                                                <div class="table-responsive">
+                                                    <table class="table table-striped table-bordered datatable-select-inputs">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>20018/04/13</td>
+                                                                <td>100 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/14</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/15</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>150 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>900 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/16</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>400 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/17</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/18</td>
+                                                                <td>600 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>200 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/19</td>
+                                                                <td>450 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>700 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/21</td>
+                                                                <td>300 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/22</td>
+                                                                <td>400 $</td>
+                                                                <td><span class="status-complete">complete</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/23</td>
+                                                                <td>700 $</td>
+                                                                <td><span class="status-pending">pending</span></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>20018/04/20</td>
+                                                                <td>500 $</td>
+                                                                <td><span class="status-cancelled">cancelled</span></td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+                                                            <tr>
+                                                                <th>Time</th>
+                                                                <th>Amount</th>
+                                                                <th>Status</th>
+                                                            </tr>
+                                                        </tfoot>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+    <footer class="footer footer-static footer-light navbar-shadow kk-color-dark">
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
+            <span class="float-md-left d-block d-md-inline-block" style="margin-top: 7px;color: rgba(110, 137, 160, 0.7);">
+                Copyright &copy; 2019 <a class="text-bold-800 grey darken-2" style="color: #08d9f2;" href="#"
+                                         target="_blank">EEE COIN</a>, All rights reserved.
+            </span>
+
+        </p>
+    </footer>
+
+    <!-- BEGIN VENDOR JS-->
+    <script src="../app-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script type="text/javascript" src="../app-assets/vendors/js/ui/jquery.sticky.js"></script>
+    <script type="text/javascript" src="../app-assets/vendors/js/charts/jquery.sparkline.min.js"></script>
+    <script src="../app-assets/vendors/js/tables/datatable/datatables.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"
+            type="text/javascript"></script>
+    <!--<script src="../app-assets/vendors/js/charts/raphael-min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/charts/morris.min.js" type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/timeline/horizontal-timeline.js" type="text/javascript"></script>-->
+    <!-- END PAGE VENDOR JS-->
+    <!-- BEGIN MODERN JS-->
+    <script src="../app-assets/js/core/app-menu.js" type="text/javascript"></script>
+    <script src="../app-assets/js/core/app.js" type="text/javascript"></script>
+    <script src="../app-assets/js/scripts/customizer.js" type="text/javascript"></script>
+    <!-- END MODERN JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <script type="text/javascript" src="../app-assets/js/scripts/ui/breadcrumbs-with-stats.js"></script>
+    <script src="../app-assets/js/scripts/pages/dashboard-ecommerce.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../app-assets/js/scripts/ui/breadcrumbs-with-stats.js"></script>
+    <script src="../app-assets/js/scripts/tables/datatables/datatable-api.js" type="text/javascript"></script>
+    <script src="../app-assets/js/scripts/modal/components-modal.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL JS-->
+</body>
+</html>
