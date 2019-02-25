@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,9 +12,8 @@
     <link rel="apple-touch-icon" href="../app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="../app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
-          rel="stylesheet">
-    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
-          rel="stylesheet">
+        rel="stylesheet">
+    <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
     <!-- BEGIN VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="../app-assets/css/vendors.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/fonts/meteocons/style.css">
@@ -54,21 +54,23 @@
     </style>
 </head>
 
-<body class="wallet horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover"
-      data-menu="horizontal-menu" data-col="2-columns">
+<body class="wallet horizontal-layout horizontal-menu 2-columns   menu-expanded" data-open="hover" data-menu="horizontal-menu"
+    data-col="2-columns">
     <!-- fixed-top-->
     <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow navbar-static-top navbar-light navbar-brand-center">
         <div class="navbar-wrapper">
             <div class="navbar-header">
                 <ul class="nav navbar-nav flex-row">
-                    <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
+                    <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                            href="#"><i class="ft-menu font-large-1"></i></a></li>
                     <li class="nav-item">
                         <a class="navbar-brand" href="#">
-                            <img class="brand-logo" alt="modern admin logo" src="../app-assets/images/logo/7eleventrans.png">
+                            <img class="brand-logo" alt="modern admin logo" src="../app-assets/images/logo/7eleven-white-trans.png">
                         </a>
                     </li>
                     <li class="nav-item d-md-none">
-                        <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i class="la la-ellipsis-v"></i></a>
+                        <a class="nav-link open-navbar-container" data-toggle="collapse" data-target="#navbar-mobile"><i
+                                class="la la-ellipsis-v"></i></a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +97,7 @@
     </nav>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
     <div class="kk-right header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-dark navbar-without-dd-arrow kk-color-dark"
-         role="navigation" data-menu="menu-wrapper">
+        role="navigation" data-menu="menu-wrapper">
         <div class="kk-header-center navbar-container main-menu-content kk-color-none" data-menu="menu-container">
             <ul class="nav navbar-nav kk-color-none" id="main-menu-navigation" data-menu="menu-navigation">
                 <li class="dropdown nav-item">
@@ -143,20 +145,30 @@
                     <div class="col-xl-4 col-lg-12 col-sm-6 col-12">
                         <div class="card pull-up back-trans card-green">
                             <div class="card-content">
-                                <div class="card-body card-kk-2 pd-0">
+                                <div class="card-body card-kk-2 pd-0 card-wallet">
                                     <div class="media d-flex">
-                                        <div class="back-left-coin back-left-coin-2">
-                                            <img class="kk-img-coin-2 cc" src="../app-assets/images/new/dollar.png">
+                                        <div class="back-left-coin">
+                                            <img class="kk-img-coin-2" src="../app-assets/images/new/dola.png">
                                         </div>
-                                        <div class="media-body text-left pd-1o5 pl-10pc pt-1-1400">
-                                            <h3 class="info kk-color-yellow"><span class="kk-color-yellow" id=""
-                                                    style="font-size:30px;">TOTAL BALANCE</span></h3>
-                                            <div class="kk-block mb-1">
-                                                <a class="kk-block-item btn-buy-pack"> WITHDRAWAL</a>
+                                        <div class="media-body text-left pd-1o5">
+                                            <div class="kk-block-other">
+                                                <h6 class="kk-block-other-item kk-block-other-item-1">
+                                                    <i class="la la-dot-circle-o"></i>
+                                                    <span class="fz-1o7" style="margin-left:15px;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                        id="">
+                                                        TOTAL BLANCE </span>
+                                                </h6>
+                                            </div>
+                                            <div class="kk-block-other btn-choose" style="padding:5px 20px;">
+                                                <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack"
+                                                    data-toggle="modal" data-target="#WithdrawalBLC">
+                                                    WITHDRAWAL
+                                                </a>
                                             </div>
                                         </div>
-                                        
+
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -164,17 +176,27 @@
                     <div class="col-xl-4 col-lg-12 col-sm-6 col-12">
                         <div class="card pull-up back-trans card-pink">
                             <div class="card-content">
-                                <div class="card-body card-kk-2 pd-0">
+                                <div class="card-body card-kk-2 pd-0 card-wallet">
                                     <div class="media d-flex">
-                                        <div class="back-left-coin back-left-coin-2">
-                                            <img class="kk-img-coin-2" src="../app-assets/images/new/dollar.png">
+                                        <div class="back-left-coin">
+                                            <img class="kk-img-coin-2" src="../app-assets/images/new/dola.png">
                                         </div>
-                                        <div class="media-body text-left pd-1o5 pl-10pc pt-1-1400">
-                                            <h3 class="info kk-color-yellow"><span class="kk-color-yellow" id="" style="font-size:30px;">BONUS</span></h3>
-                                            <!-- <div class="kk-block mb-1">
-                                                <h6 class="kk-color-blue-dark mb-1">
+                                        <div class="media-body text-left pd-1o5">
+                                            <div class="kk-block-other">
+                                                <h6 class="kk-block-other-item kk-block-other-item-1">
+                                                    <i class="la la-dot-circle-o"></i>
+                                                    <span class="fz-1o7" style="margin-left:15px;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                        id="">
+                                                        BONUS </span>
+                                                </h6>
+                                            </div>
+                                            <!-- <div class="kk-block-other btn-choose" style="padding:5px 20px;">
+                                                <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack" data-toggle="modal" data-target="#WithdrawalBLC">
+                                                    WITHDRAWAL
+                                                </a>
                                             </div> -->
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -184,18 +206,28 @@
                     <div class="col-xl-4 col-lg-12 col-sm-6 col-12">
                         <div class="card pull-up back-trans card-red">
                             <div class="card-content">
-                                <div class="card-body card-kk-2 pd-0">
+                                <div class="card-body card-kk-2 pd-0 card-wallet">
                                     <div class="media d-flex">
-                                        <div class="back-left-coin back-left-coin-2">
+                                        <div class="back-left-coin">
                                             <img class="kk-img-coin-2" src="../app-assets/images/ico/iocn3.png">
                                         </div>
-                                        <div class="media-body text-left pd-1o5 pl-10pc pt-1-1400">
-                                            <h3 class="info kk-color-yellow"><span class="kk-color-yellow" id="" style="font-size:30px;">TOTAL EEE</span></h3>
-                                            <div class="kk-block mb-1">
-                                                <a class="kk-block-item btn-buy-pack"> WITHDRAWAL</a>
+                                        <div class="media-body text-left pd-1o5">
+                                            <div class="kk-block-other">
+                                                <h6 class="kk-block-other-item kk-block-other-item-1">
+                                                    <i class="la la-dot-circle-o"></i>
+                                                    <span class="fz-1o7" style="margin-left:15px;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                        id="">
+                                                        Total EEE </span>
+                                                </h6>
                                             </div>
-
+                                            <div class="kk-block-other btn-choose" style="padding:5px 20px;">
+                                                <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack"
+                                                    data-toggle="modal" data-target="#WithdrawalBLC">
+                                                    WITHDRAWAL
+                                                </a>
+                                            </div>
                                         </div>
+
                                     </div>
 
                                 </div>
@@ -204,95 +236,44 @@
                     </div>
                 </div>
                 <div class="row match-height">
-                    <div class="col-xl-4 col-lg-12 col-12">
-                        <div class="row" style="margin-right:0px;margin-left:0px;">
-                            <div class="card kk-border-3d" style="width:100%;">
-                                <div class="card-header kk-color-soft-light" style="padding: 1.2rem;">
-                                    <h4 class="card-title live-room" style="text-align: center;color: #4bfff0;">BUY EEE</h4>
-                                </div>
-                                <div class="content-body" style="border-bottom: 10px solid rgba(13, 29, 86, 0.2);">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="text-center no-mt no-mb">
-                                                <div class="transfer-wraper">
-                                                    <div class="crypto-icon">
-                                                        <img style="width:90px;margin-top:20px;" src="../app-assets/images/ico/iocn3.png">
-                                                    </div>
-                                                    <div class="form-group cryptonia no-mb">
-                                                        <label class="form-label dark-blue-color fz-1o2 mb-5px w-100" style="font-weight:500;font-size:1.2rem">minimum value <span style="color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">500 EEE</span></label>
-                                                        <div class="form-group cryptonia no-mb no-pb">
-                                                            <label class="form-label mt-10-o dark-blue-color fz-1o2 mb-1 kk-lbl" style="width: 100%;text-align:left">Amount</label>
-                                                            <div class="form-group validate">
-                                                                <div class="controls">
-                                                                    <div class="input-group pd-lr-15">
-                                                                        <div class="input-group-append">
-                                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark" style="border-color: rgb(33, 64, 119)!important;border-top-left-radius: 0px;border-bottom-left-radius: 5px;border-top: 0px;border-left: 0px;background: linear-gradient(to right, rgba(10, 21, 80, 0.3), rgb(4, 13, 62)) !important;">
-                                                                                <img style="width:20px;" src="../app-assets/images/ico/iocn3.png">
-                                                                            </button>
-                                                                        </div>
-                                                                        <input type="number" id="amount_usd_ex" name="amount_usd_ex" class="form-control kk-wallet-2 change_usd" style="font-weight:600" min="500" required="" data-validation-required-message="This field is required" aria-invalid="false" placeholder="Enter Amount">
-                                                                    </div>
-                                                                    <div class="help-block"></div>
-                                                                </div>
-                                                            </div>
-                                                            <label class="form-label mt-10-o dark-blue-color fz-1o2 mb-1 kk-lbl" style="width: 100%;text-align:left;margin-top:0px;">Total USD</label>
-                                                            <div class="form-group validate">
-                                                                <div class="controls">
-                                                                    <div class="input-group pd-lr-15">
-                                                                        <div class="input-group-append">
-                                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark" style="border-color: rgb(14, 58, 36)!important;background: linear-gradient(to right, rgba(12, 32, 34, 0.3), rgb(8, 21, 10)) !important;border-top-left-radius: 0px;border-bottom-left-radius: 5px;border-top: 0px;border-left: 0px;">
-                                                                                <i class="la la-dollar fz-1o3" style="color: #54ff91 !important;"></i>
-                                                                            </button>
-                                                                        </div>
-                                                                        <input type="text" class="form-control kk-wallet-2 kk-color-blue-dark" style="font-weight:600" required="" aria-invalid="false" placeholder="0.00" disabled="disabled">
-                                                                    </div>
-                                                                    <div class="help-block"></div>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
 
-                                                    </div>
-                                                    <div class="btn-buy-eee">
-                                                        <a href="#" class="btn btn-default btn-default-style">Buy</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-xl-8 col-lg-12 col-12">
                         <div class="row" style="margin-right:0px;margin-left:0px;">
                             <div class="card kk-border-3d" style="width:100%;background: linear-gradient(rgb(11, 15, 51), rgb(11, 18, 57));">
                                 <ul class="nav nav-tabs tab-wallet" style="margin-top: 13px;">
                                     <li class="nav-item">
-                                        <a class="nav-link active dark-blue-color btc-tab" id="W-BTC-tab" data-toggle="tab" href="#W-BTC" aria-controls="home" aria-expanded="false">BTC</a>
+                                        <a class="nav-link active dark-blue-color btc-tab" id="W-BTC-tab" data-toggle="tab"
+                                            href="#W-BTC" aria-controls="home" aria-expanded="false">BTC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color eth-tab" id="W-ETH-tab" data-toggle="tab" href="#W-ETH" aria-controls="profile" aria-expanded="true">ETH</a>
+                                        <a class="nav-link dark-blue-color eth-tab" id="W-ETH-tab" data-toggle="tab"
+                                            href="#W-ETH" aria-controls="profile" aria-expanded="true">ETH</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color btc-tab" id="W-ETC-tab" data-toggle="tab" href="#W-ETC" aria-controls="profile" aria-expanded="true">ETC</a>
+                                        <a class="nav-link dark-blue-color btc-tab" id="W-ETC-tab" data-toggle="tab"
+                                            href="#W-ETC" aria-controls="profile" aria-expanded="true">ETC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color eth-tab" id="W-BCH-tab" data-toggle="tab" href="#W-BCH" aria-controls="profile" aria-expanded="true">BCH</a>
+                                        <a class="nav-link dark-blue-color eth-tab" id="W-BCH-tab" data-toggle="tab"
+                                            href="#W-BCH" aria-controls="profile" aria-expanded="true">BCH</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color btc-tab" id="W-XRP-tab" data-toggle="tab" href="#W-XRP" aria-controls="profile" aria-expanded="true">XRP</a>
+                                        <a class="nav-link dark-blue-color btc-tab" id="W-XRP-tab" data-toggle="tab"
+                                            href="#W-XRP" aria-controls="profile" aria-expanded="true">XRP</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color eth-tab" id="W-LTC-tab" data-toggle="tab" href="#W-LTC" aria-controls="profile" aria-expanded="true">LTC</a>
+                                        <a class="nav-link dark-blue-color eth-tab" id="W-LTC-tab" data-toggle="tab"
+                                            href="#W-LTC" aria-controls="profile" aria-expanded="true">LTC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dark-blue-color btc-tab" id="W-TRX-tab" data-toggle="tab" href="#W-TRX" aria-controls="profile" aria-expanded="true">TRX</a>
+                                        <a class="nav-link dark-blue-color btc-tab" id="W-TRX-tab" data-toggle="tab"
+                                            href="#W-TRX" aria-controls="profile" aria-expanded="true">TRX</a>
                                     </li>
-                                    
+
                                 </ul>
                                 <div class="tab-content px-1 pt-1" style="padding-top: 25px!important;">
-                                    <div role="tabpanel" class="tab-pane active" id="W-BTC" aria-labelledby="W-BTC-tab" aria-expanded="false">
+                                    <div role="tabpanel" class="tab-pane active" id="W-BTC" aria-labelledby="W-BTC-tab"
+                                        aria-expanded="false">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-btc-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -301,14 +282,16 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #5ad875;">BTC</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #5ad875;">BTC</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">
-                                                        0.123456 </span> BTC
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">
+                                                            0.123456 </span> BTC
                                                     </h6>
                                                 </div>
                                             </div>
@@ -320,7 +303,8 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="W-ETH" role="tabpanel" aria-labelledby="W-ETH-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-ETH" role="tabpanel" aria-labelledby="W-ETH-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -329,13 +313,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">ETH</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">ETH</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -349,7 +335,8 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane" id="W-ETC" role="tabpanel" aria-labelledby="W-ETC-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-ETC" role="tabpanel" aria-labelledby="W-ETC-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -358,13 +345,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">ETC</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">ETC</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -377,7 +366,8 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="W-BCH" role="tabpanel" aria-labelledby="W-BCH-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-BCH" role="tabpanel" aria-labelledby="W-BCH-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -386,13 +376,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">BCH</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">BCH</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -405,7 +397,8 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="W-XRP" role="tabpanel" aria-labelledby="W-XRP-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-XRP" role="tabpanel" aria-labelledby="W-XRP-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -414,13 +407,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">XRP</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">XRP</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -433,7 +428,8 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="W-LTC" role="tabpanel" aria-labelledby="W-LTC-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-LTC" role="tabpanel" aria-labelledby="W-LTC-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -442,13 +438,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">LTC</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">LTC</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -461,7 +459,8 @@
                                             </h6>
                                         </div>
                                     </div>
-                                    <div class="tab-pane" id="W-TRX" role="tabpanel" aria-labelledby="W-TRX-tab" aria-expanded="true">
+                                    <div class="tab-pane" id="W-TRX" role="tabpanel" aria-labelledby="W-TRX-tab"
+                                        aria-expanded="true">
                                         <div class="media d-flex d-inline-mobile">
                                             <div class="back-left-coin-5 qr-eth-img">
                                                 <img class="kk-img-coin-2" src="../app-assets/images/icons/QRCode.png">
@@ -470,13 +469,15 @@
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7" style="color: #d86dfe;">TRX</span>
+                                                        Buy <span class="fz-1o7">EEE</span> with <span class="fz-1o7"
+                                                            style="color: #d86dfe;">TRX</span>
                                                     </h6>
                                                 </div>
                                                 <div class="kk-block-other">
                                                     <h6 class="kk-block-other-item kk-block-other-item-1">
                                                         <i class="la la-dot-circle-o"></i>
-                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">3.654321 </span> ETH
+                                                        Total:<span class="fz-1o7" style="margin-left:15px;margin-left:15px;color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;"
+                                                            id="">3.654321 </span> ETH
                                                     </h6>
                                                 </div>
 
@@ -494,178 +495,84 @@
                         </div>
 
                     </div>
+                    <div class="col-xl-4 col-lg-12 col-12">
+                        <div class="row" style="margin-right:0px;margin-left:0px;">
+                            <div class="card kk-border-3d" style="width:100%;">
+                                <div class="card-header kk-color-soft-light" style="padding: 1.2rem;">
+                                    <h4 class="card-title live-room" style="text-align: center;color: #4bfff0;">BUY EEE</h4>
+                                </div>
+                                <div class="content-body" style="border-bottom: 10px solid rgba(13, 29, 86, 0.2);">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="text-center no-mt no-mb">
+                                                <div class="transfer-wraper">
+                                                    <div class="crypto-icon">
+                                                        <img style="width:90px;margin-top:20px;" src="../app-assets/images/ico/iocn3.png">
+                                                    </div>
+                                                    <div class="form-group cryptonia no-mb">
+                                                        <label class="form-label dark-blue-color fz-1o2 mb-5px w-100"
+                                                            style="font-weight:500;font-size:1.2rem">minimum value
+                                                            <span style="color: #d76dfe;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;">500
+                                                                EEE</span></label>
+                                                        <div class="form-group cryptonia no-mb no-pb">
+                                                            <label class="form-label mt-10-o dark-blue-color fz-1o2 mb-1 kk-lbl"
+                                                                style="width: 100%;text-align:left">Amount</label>
+                                                            <div class="form-group validate">
+                                                                <div class="controls">
+                                                                    <div class="input-group pd-lr-15">
+                                                                        <div class="input-group-append">
+                                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark"
+                                                                                style="border-color: rgb(33, 64, 119)!important;border-top-left-radius: 0px;border-bottom-left-radius: 5px;border-top: 0px;border-left: 0px;background: linear-gradient(to right, rgba(10, 21, 80, 0.3), rgb(4, 13, 62)) !important;">
+                                                                                <img style="width:20px;" src="../app-assets/images/ico/iocn3.png">
+                                                                            </button>
+                                                                        </div>
+                                                                        <input type="number" id="amount_usd_ex" name="amount_usd_ex"
+                                                                            class="form-control kk-wallet-2 change_usd"
+                                                                            style="font-weight:600" min="500" required=""
+                                                                            data-validation-required-message="This field is required"
+                                                                            aria-invalid="false" placeholder="Enter Amount">
+                                                                    </div>
+                                                                    <div class="help-block"></div>
+                                                                </div>
+                                                            </div>
+                                                            <label class="form-label mt-10-o dark-blue-color fz-1o2 mb-1 kk-lbl"
+                                                                style="width: 100%;text-align:left;margin-top:0px;">Total
+                                                                USD</label>
+                                                            <div class="form-group validate">
+                                                                <div class="controls">
+                                                                    <div class="input-group pd-lr-15">
+                                                                        <div class="input-group-append">
+                                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark"
+                                                                                style="border-color: rgb(14, 58, 36)!important;background: linear-gradient(to right, rgba(12, 32, 34, 0.3), rgb(8, 21, 10)) !important;border-top-left-radius: 0px;border-bottom-left-radius: 5px;border-top: 0px;border-left: 0px;">
+                                                                                <i class="la la-dollar fz-1o3" style="color: #54ff91 !important;"></i>
+                                                                            </button>
+                                                                        </div>
+                                                                        <input type="text" class="form-control kk-wallet-2 kk-color-blue-dark"
+                                                                            style="font-weight:600" required=""
+                                                                            aria-invalid="false" placeholder="0.00"
+                                                                            disabled="disabled">
+                                                                    </div>
+                                                                    <div class="help-block"></div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="btn-buy-eee">
+                                                        <a href="#" class="btn btn-default btn-default-style">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="row match-height">
-                    <div class="col-xl-4 col-lg-12 col-12">
-                        <div class="card pull-up back-trans" style="">
-                            <div class="card-content">
-                                <div class="card-body card-kk-2 pd-0 card-wallet">
-                                    <div class="media d-flex">
-                                        <div class="back-left-coin">
-                                            <img class="kk-img-coin-2" src="../app-assets/images/new/irobot.svg">
-                                        </div>
-                                        <div class="media-body text-left pd-1o5">
-                                            <div class="kk-block-other">
-                                                <h6 class="kk-block-other-item kk-block-other-item-1">
-                                                    <i class="la la-dot-circle-o"></i>
-                                                    Total EEE:<span class="fz-1o7" style="margin-left:15px;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">
-                                                    1,000,000 </span> EEE
-                                                </h6>
-                                            </div>
-                                            <div class="kk-block-other btn-choose" style="padding:5px 20px;">
-                                                <a class="kk-block-other-item kk-block-other-item-1 btn-buy-pack" data-toggle="modal" data-target="#WithdrawalBLC">
-                                                    WITHDRAWAL
-                                                </a>
-                                            </div>
-                                        </div>
 
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal animated zoomIn text-left" id="WithdrawalBLC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel69" style="display: none;" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header bg-success white">
-                                        <h4 class="modal-title kk-block-other-item" id="myModalLabel9" style="color: #17c8ff;"><img src="../app-assets/images/icons/goldenpayc.svg" class="modal-icon-header"><span style="font-weight:600">EEE</span> Wallet</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="crypto-icon text-center">
-                                            <img class="hwc" src="../app-assets/images/new/irobot.svg">
-                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-5px w-100">minimum value 100 EEE</label>
-                                        </div>
-                                        <div class="form-group cryptonia no-mb no-pb">
-                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Total EEE</label>
-                                            <div class="form-group validate">
-                                                <div class="controls">
-                                                    <div class="input-group pd-lr-15">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;">
-                                                                <img style="width:20px;" src="../app-assets/images/icons/gpc.svg">
-                                                            </button>
-                                                        </div>
-                                                        <input type="text" id="amount_usd" class="form-control" value="0,00" disabled="disabled" style="background: #e2f2ff;">
-
-                                                    </div>
-                                                    <div class="help-block"></div>
-                                                </div>
-                                            </div>
-
-                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Amount</label>
-                                            <div class="form-group validate">
-                                                <div class="controls">
-                                                    <div class="input-group pd-lr-15">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;">
-                                                                <i class="la la-dollar fz-1o3"></i>
-                                                            </button>
-                                                        </div>
-                                                        <input type="number" id="amount_usd_ex" name="amount_usd_ex" class="form-control kk-wallet change_usd" style="font-weight:600" min="100" required="" data-validation-required-message="This field is required" aria-invalid="false" placeholder="Enter Amount">
-                                                    </div>
-                                                    <div class="help-block"></div>
-                                                </div>
-                                            </div>
-
-                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Equivalent Amount</label>
-                                            <div class="form-group validate">
-                                                <div class="controls">
-                                                    <div class="input-group pd-lr-15">
-                                                        <div class="input-group-append">
-                                                            <button class="btn btn-warning pd-0o5-1 kk-color-dark kk-color-light-new" style="border-top-left-radius:3px;border-bottom-left-radius:3px;" type="button">
-                                                                <i class="la la-dollar fz-1o3"></i>
-                                                            </button>
-                                                        </div>
-                                                        <input type="text" id="amount_usd_act" name="amount_usd_act" class="form-control kk-wallet kk-color-black change_usd" style="font-weight:600" required="" aria-invalid="false" placeholder="0.0000">
-                                                        <button class="btn btn-warning pd-0o5-1 kk-color-dark" style="border-color: rgba(9, 19, 72, 0.2)!important; border-radius: 0px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;color: #383e52;opacity: 1;background: #ccdce8!important;font-weight: 600;" type="button">
-                                                            FEE: 3%
-                                                        </button>
-                                                    </div>
-                                                    <div class="help-block"></div>
-                                                </div>
-                                            </div>
-                                            <label class="form-label mt-10-o kk-color-black fz-1o2 mb-1 kk-lbl"> Wallet receiver</label>
-                                            <div class="form-group validate">
-                                                <div class="controls">
-                                                    <div class="input-group pd-lr-15">
-                                                        <input type="text" id="wallet" name="wallet" class="form-control text-center kk-wallet kk-color-black change_usd" required="" aria-invalid="false" placeholder="OxsD12F32xvW3deG5...">
-                                                        <div class="input-group-append">
-                                                            <select id="type" name="type" class="form-control input-smn pd-0o5-1 kk-color-dark" style="border-color: #1b353a!important;border-bottom-left-radius: 0px;border-top-left-radius: 0px;" disabled="disabled">
-                                                                <option value="EEE">EEE</option>
-                                                            </select>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="help-block"></div>
-                                                </div>
-                                            </div>
-                                            <input type="hidden" id="check_usd" name="check" value="0">
-                                        </div>
-                                        <div class="alert alert-success" role="alert" style="display:none">
-                                            <span class="text-bold-600">Only send Ethereum (ETH)</span>  to this address. Sending any other digital asset will result in permanent loss.
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer bg-success">
-                                        <button type="button" style="color: #0c0c35!important;font-size: 1.12rem;font-weight: 600;padding: 9px 15px;background: #31bfde;background-image: linear-gradient(to right, #01f2ff, #9ef4e1);" class="btn btn-outline-success btn-buy-pack">Withdrawal</button>
-                                        <button type="button" style="font-size: 1.12rem;" class="btn grey btn-outline-secondary" data-dismiss="modal">Close</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12 col-12">
-                        <div class="card pull-up back-trans" style="">
-                            <div class="card-content">
-                                <div class="card-body card-kk-2 pd-0 card-wallet">
-                                    <div class="media d-flex">
-                                        <div class="back-left-coin">
-                                            <img class="kk-img-coin-2" src="../app-assets/images/new/irobot-green.svg">
-                                        </div>
-                                        <div class="media-body text-left pd-1o5">
-                                            <div class="kk-block-other" style="background:none!important">
-                                                <h6 class="kk-block-other-item kk-block-other-item-1">
-                                                    <i class="la la-dot-circle-o" style="color: #5ddd85;"></i>
-                                                    EEE bonus:<span class="fz-1o7" style="margin-left:15px;background: linear-gradient(to right, #00f3ff, #6fffa5);-webkit-background-clip: text;text-transform: none;-webkit-text-fill-color: transparent;font-weight: 600;" id="">
-                                                    100,000 </span> EEE
-                                                </h6>
-                                            </div>
-                                            <div class="kk-block-other btn-choose" style="padding:5px 20px;background:none!important">
-                                                <a href="history.html" style="background: linear-gradient(to right,rgba(6, 8, 41, 0.5),rgba(11, 17, 58, 0));    color: #5ddd85!important;" class="kk-block-other-item kk-block-other-item-1 btn-buy-pack">
-                                                    VIEW HISTORY
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12 col-12">
-                        <div class="card pull-up kk-card-white">
-                            <div class="card-content">
-                                <div class="card-body pd-0">
-                                    <div class="media d-flex">
-                                        <div style="padding-left:20px;position:relative;top:5px;">
-                                            <img class="img-block" src="../app-assets/images/new/system.svg">
-                                        </div>
-                                        <div class="media-body text-left">
-                                            <h3 class="kk-color-blue-dark text-right mt-15 mr-10-m"><span id="" class="fz-1o7 fz-block-center">1,000,000</span> EEE</h3>
-                                            <h6 class="kk-color-blue-dark">EEE System</h6>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
             </div>
         </div>
     </div>
@@ -673,8 +580,8 @@
     <footer class="footer footer-static footer-light navbar-shadow kk-color-dark">
         <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2">
             <span class="float-md-left d-block d-md-inline-block" style="margin-top: 7px;color: rgba(110, 137, 160, 0.7);">
-                Copyright &copy; 2019 <a class="text-bold-800 grey darken-2" style="color: #08d9f2;" href="#"
-                                         target="_blank">EEE COIN</a>, All rights reserved.
+                Copyright &copy; 2019 <a class="text-bold-800 grey darken-2" style="color: #08d9f2;" href="#" target="_blank">EEE
+                    COIN</a>, All rights reserved.
             </span>
 
         </p>
@@ -687,8 +594,7 @@
     <script type="text/javascript" src="../app-assets/vendors/js/ui/jquery.sticky.js"></script>
     <script type="text/javascript" src="../app-assets/vendors/js/charts/jquery.sparkline.min.js"></script>
     <script src="../app-assets/vendors/js/tables/datatable/datatables.min.js" type="text/javascript"></script>
-    <script src="../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"
-            type="text/javascript"></script>
+    <script src="../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js" type="text/javascript"></script>
     <!--<script src="../app-assets/vendors/js/charts/raphael-min.js" type="text/javascript"></script>
     <script src="../app-assets/vendors/js/charts/morris.min.js" type="text/javascript"></script>
     <script src="../app-assets/vendors/js/timeline/horizontal-timeline.js" type="text/javascript"></script>-->
@@ -706,4 +612,5 @@
     <script src="../app-assets/js/scripts/modal/components-modal.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS-->
 </body>
+
 </html>
